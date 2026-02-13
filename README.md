@@ -20,55 +20,7 @@ MAL-ICS++ is a comprehensive cybersecurity framework for detecting False Data In
 - **🔬 Physics-Aware**: Digital twin validation for power flow consistency
 
 
-## 🏗️ Repository Structure
 
-```
-malics-github-repo/
-├── src/                          # Source code
-│   ├── dataset/                  # Dataset generation scripts
-│   │   ├── generate_normal_samples.py
-│   │   ├── generate_attack_a1.py
-│   │   ├── generate_attack_a2.py
-│   │   ├── generate_attack_a3.py
-│   │   ├── generate_attack_a4.py
-│   │   ├── generate_attack_a5.py
-│   │   └── generate_master_dataset.py
-│   ├── models/                   # ML models implementation
-│   │   ├── train_classifiers.py
-│   │   └── evaluate_models.py
-│   └── visualization/            # Visualization scripts
-│       ├── visualize_dataset.py
-│       ├── plot_roc_curves.py
-│       └── generate_figures.py
-├── data/                         # Datasets
-│   ├── raw/                      # Raw power grid measurements
-│   ├── processed/                # Processed datasets
-│   │   └── malics_dataset_complete.csv
-│   └── README.md                 # Dataset documentation
-├── notebooks/                    # Jupyter notebooks
-│   ├── 01_dataset_exploration.ipynb
-│   ├── 02_model_training.ipynb
-│   └── 03_results_analysis.ipynb
-├── results/                      # Experimental results
-│   ├── figures/                  # Generated figures
-│   │   ├── enhanced_dataset_overview.png
-│   │   ├── voltage_profiles.png
-│   │   ├── attack_signatures.png
-│   │   ├── roc_curves.png
-│   │   └── confusion_matrices.png
-│   ├── metrics/                  # Performance metrics
-│   │   └── model_results.csv
-│   └── logs/                     # Training logs
-├── docs/                         # Documentation
-│   ├── DATASET.md                # Dataset specification
-│   ├── METHODOLOGY.md            # Technical methodology
-│   └── USAGE.md                  # Usage guide
-├── requirements.txt              # Python dependencies
-├── setup.py                      # Package setup
-├── .gitignore                    # Git ignore rules
-├── LICENSE                       # MIT License
-└── README.md                     # This file
-```
 
 ## 🚀 Quick Start
 
